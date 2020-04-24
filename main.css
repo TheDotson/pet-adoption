@@ -2,3 +2,30 @@ body {
   background-color: cadetblue;
   color: black;
 }
+
+#kennel {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.pet {
+  width: 30%;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px black;
+  background: #03A9F4;
+  color: #212121;
+  text-align: center;
+  padding: 10px;
+}
+
+.name {
+  background-color: gray;
+}
+
+img {
+  max-width: 300px;
+  max-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
