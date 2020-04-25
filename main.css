@@ -9,13 +9,35 @@ body {
   justify-content: space-around;
 }
 
-.pet {
+.petCard {
+  padding: 0;
+  min-width: 250px;
   width: 30%;
-  margin-bottom: 20px;
-  box-shadow: 5px 5px black;
-  background: rosybrown;
-  color: #212121;
+  margin: 20px 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  overflow: hidden;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 5px 5px black;
+  background-color: seashell;
+}
+
+.Dog footer {
+  background-color: forestgreen;
+  color: white;
+}
+
+.Cat footer {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.Dino footer {
+  background-color: darkorange;
+  color: white;
 }
 
 h2 {
@@ -31,8 +53,44 @@ img {
   margin-right: auto;
 }
 
-.type {
-  background-color:purple;
-  margin-bottom: 0;
-  margin-top: 0;
+#refinePets {
+  display: flex;
+  list-style: none;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+#filterDogs {
+  background-color: forestgreen;
+}
+
+#filterCats {
+  background-color: dodgerblue;
+}
+
+#filterDinos {
+  background-color: darkorange;
+}
+
+#showAll {
+  background-color: slategray;
+}
+
+#filterPets {
+  display: flex;
+  list-style: none;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+#filterPets li {
+  display: block;
+  width: 100px;
+  height: 35px;
+  margin: 10px;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  line-height: 35px;
+  text-decoration: none;
 }
